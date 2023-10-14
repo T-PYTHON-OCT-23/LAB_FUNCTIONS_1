@@ -1,0 +1,24 @@
+
+def maram(m:int,d:int):
+   m=7
+   d=6
+   for i in range (m):
+      s = d
+      for j in range (i+1):
+         print (' ', end = ' ')
+      for j in range (i,m):
+         print (s, end = ' ') 
+         s-=1
+      d-=1
+      print() 
+
+
+m=input("number:")
+d=input("number:")
+
+maram(m,d)
+
+
+      
+
+
