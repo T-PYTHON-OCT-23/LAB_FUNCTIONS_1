@@ -1,5 +1,6 @@
 
 def maram(m:int,d:int):
+   '''A gradation function for numbers in an inverted hierarchical form'''
    m=7
    d=6
    for i in range (m):
