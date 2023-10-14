@@ -1,4 +1,4 @@
-def function_display(num:int) -> int :
+def function_display(num:int) -> print :
     """This function take on parameters as integer number and reverse the parameter and print the output in list and decrese the number each time to give us the triangle shape.
     Note: Logical opreation here is to take number and subtract 1 form the given number to make the shape look. \n
     Like this:\n
