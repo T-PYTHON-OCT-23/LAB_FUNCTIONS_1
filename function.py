@@ -17,4 +17,4 @@ def function_display(num:int) -> int :
     return None
 
 function_display(5)
-function_display()
+print(function_display.__doc__)
