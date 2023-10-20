@@ -1,10 +1,11 @@
 def number(num: int):
-    ''' print pattern from the number 7 to 1 '''
+    output = ""
     for i in range(num, 0, -1):
         for j in range(i, 0, -1):
-            print(i, end=" ")
-        print()
+              output += f"{j} "
+        output += "\n"
+    return output
+       
 
-
-number(7)
-print(number.__doc__)
+pattern = number(7)
+print(pattern)
